@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="sockets">
+      <UniqueIdentifier>{b9ac09b5-ea91-444c-a629-763f8b275f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sockets\impl">
+      <UniqueIdentifier>{c4848fef-17ec-4f00-ab5a-eee9086c89b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sockets\impl\tcp">
+      <UniqueIdentifier>{773be84b-f7ef-45e5-b7f2-edc773825b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sockets\impl\udp">
+      <UniqueIdentifier>{8eb8c37f-7ff8-4e11-9762-ade1777ca68c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>sockets\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClientSocket.h">
+      <Filter>sockets\impl\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServerSocket.h">
+      <Filter>sockets\impl\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpSocket.h">
+      <Filter>sockets\impl\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpSocket.h">
+      <Filter>sockets\impl\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpClientSocket.h">
+      <Filter>sockets\impl\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpServerSocket.h">
+      <Filter>sockets\impl\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketException.h">
+      <Filter>sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketsDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpSocketFactory.h">
+      <Filter>sockets\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpSocketFactory.h">
+      <Filter>sockets\impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketsDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>sockets\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClientSocket.cpp">
+      <Filter>sockets\impl\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServerSocket.cpp">
+      <Filter>sockets\impl\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSocket.cpp">
+      <Filter>sockets\impl\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpClientSocket.cpp">
+      <Filter>sockets\impl\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpServerSocket.cpp">
+      <Filter>sockets\impl\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpSocket.cpp">
+      <Filter>sockets\impl\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketException.cpp">
+      <Filter>sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSocketFactory.cpp">
+      <Filter>sockets\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpSocketFactory.cpp">
+      <Filter>sockets\impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

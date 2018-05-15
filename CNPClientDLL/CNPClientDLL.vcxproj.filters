@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CnpClientException.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNPClientDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CnpTcpClient.cpp">
+      <Filter>client\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="CnpUdpClient.cpp">
+      <Filter>client\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="CnpClientFactory.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CnpClientException.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CnpTcpClient.h">
+      <Filter>client\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="CnpUdpClient.h">
+      <Filter>client\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="CnpClientFactory.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="CNPClientDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{87207dda-86dd-4e99-964c-7f5623328380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\tcp">
+      <UniqueIdentifier>{6bbea4a6-39ad-4083-8ef0-c775e3535fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\udp">
+      <UniqueIdentifier>{698a69c6-92f5-40de-b2e2-bee4222c1b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{70250f04-6a83-45c2-9be7-2125b1e3cb57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8f099305-9df1-4e71-8971-02baabea2058}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

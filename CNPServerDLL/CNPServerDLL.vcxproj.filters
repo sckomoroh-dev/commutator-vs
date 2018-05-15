@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNPServerDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CnpServerException.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="CnpTcpServer.cpp">
+      <Filter>server\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="CnpUdpServer.cpp">
+      <Filter>server\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="CnpServerFactory.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CnpServerException.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="CnpTcpServer.h">
+      <Filter>server\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="CnpUdpServer.h">
+      <Filter>server\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="CNPServerDLL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CnpServerFactory.h">
+      <Filter>server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{95124058-db74-41dc-9ba4-d492be7612db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{adb7014e-7210-4a02-98ee-576193672ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{7f336aed-292c-44d6-835d-a7074a290fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\tcp">
+      <UniqueIdentifier>{30d64e71-a461-4a12-b8e1-fa44becf3cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server\udp">
+      <UniqueIdentifier>{b50f1ba9-bc65-43bf-81f2-77f5163cda08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
